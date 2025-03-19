@@ -1,0 +1,34 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+[Mm]igrations/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+/src/.vs/InsternShip/FileContentIndex/9b11c210-9144-4e21-98a9-9cb334b0e4a8.vsidx
+/src/.vs/InsternShip/FileContentIndex/67fad055-73ed-4dc7-82f5-0beaf790aff6.vsidx

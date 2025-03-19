@@ -1,0 +1,16 @@
+﻿using InsternShip.Data.Model;
+using InsternShip.Data.ViewModels;
+
+namespace InsternShip.Service.Interfaces
+{
+    public interface IBlackListService
+    {
+        Task<BlackListEntriesViewModel> GetAll(string? search, int page, int limit, bool isOn);
+        Task<BlackListViewModel> GetById(Guid entryId);
+        Task<bool> Create(CreateBlackListModel request);
+        Task<bool> Update(Guid userId, BlackListUpdateModel request);
+        Task<bool> Delete(Guid userId);
+        Task<bool> Restore(Guid userId);
+    }
+}
+
